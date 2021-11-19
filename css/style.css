@@ -27,16 +27,6 @@ h2 {
     padding: 20px;
 }
 
-
-@media (min-width:768px) {
-    .contenedor {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .contenedor > div {
-        flex: 1 0 50%;
-    }
-}
 .formulario-busqueda p {
     text-align: center;
 }
@@ -94,4 +84,47 @@ h2 {
 #resultado {
     white-space: pre-wrap;
     padding: 2rem;
+}
+
+/* MediaQuery */
+
+@media (min-width:768px) {
+    .contenedor {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contenedor > div {
+        flex: 1 0 50%;
+    }
+    #artista{
+        width: 50%;
+    }
+
+    #artista{
+        width: 40%;
+    }
+    #cancion{
+     width: 40%;
+    }
+ 
+    submit{
+     width: 40%;
+    }
+}
+
+@media (max-width: 500px) {
+    .contenedor {
+        display: flex;
+        flex-wrap: wrap;
+    }
+   #artista{
+       width: 40%;
+   }
+   #cancion{
+    width: 40%;
+   }
+
+   submit{
+    width: 40%;
+   }
 }
