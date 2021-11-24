@@ -5,7 +5,7 @@
   </a>
 </p>
 
-> El repositorio consiste en un buscador de canciones hecho con HTML5,Javascript y CSS3.</br>
+> El repositorio consiste en un buscador de canciones hecho con HTML5,Javascript,CSS3 y la API de Lyrics.</br>
 
 ## 🦁 Versión de Javascript
 
