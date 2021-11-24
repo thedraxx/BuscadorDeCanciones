@@ -37,7 +37,7 @@ Cualquier sugerencia de arquitectura de código,pregunta o problema enviar mail 
 
 ## 🤝 Contribuciones y Agradecimientos
 
-Agradezco a Juan Herrera, tutor y responsable de que haya sido capaz de generar esto, tambien a las personas que me dieron una mano 
+Agradezco a Juan Torre, tutor y responsable de que haya sido capaz de generar esto
 
 ## 📝 Licencia
 
