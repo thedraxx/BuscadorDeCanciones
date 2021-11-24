@@ -7,7 +7,7 @@
 
 > El repositorio consiste en un buscador de canciones hecho con HTML5,Javascript y CSS3.</br>
 
-## 🦁 Versión de React
+## 🦁 Versión de Javascript
 
 ```
 Javascript: ES12
