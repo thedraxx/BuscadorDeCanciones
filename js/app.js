@@ -14,7 +14,7 @@ function buscarCancion(e)
     if (artista === "" || cancion === "") 
     {
         //El usuario dejo al menos un campo vacio, mostrar error
-        UI.divMensajes.textContent = "Error... Todos los campos son obligatorios";
+        UI.divMensajes.textContent = "Error... all fields are required";
         UI.divMensajes.classList.add('error');
 
         setTimeout(() => {

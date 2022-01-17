@@ -19,11 +19,11 @@ export class API{
                 {
                     const {  lyrics } = resultado;
                     UI.divResultado.textContent = lyrics;
-                    UI.headingResultado.textContent = `Letra de la cancion: ${this.cancion} de ${this.artista} `;
+                    UI.headingResultado.textContent = `Here are the results of: ${this.cancion} from ${this.artista} `;
                 }
                 else
                 {
-                    UI.divMensajes.textContent = "La cancion no existe, prueba con otra busqueda";
+                    UI.divMensajes.textContent = "The song does not exist";
                     UI.divMensajes.classList.add('error');
                     setTimeout(() => {
                         UI.divMensajes.textContent = "";
